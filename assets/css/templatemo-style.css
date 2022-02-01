@@ -225,7 +225,7 @@ html {
     left: 10%;
   -webkit-transition: -webkit-transform 233ms cubic-bezier(0, 0, 0.21, 1);
   -webkit-overflow-scrolling: touch;
-  background-color: #df401b;
+  background-color: #df3f1bc7;
   box-sizing: border-box;
   height: 100vh;  
   max-height: 100vh !important;
@@ -378,12 +378,12 @@ button:hover {
 
 .right-image-post h4,
 .left-image-post h4 {
-    margin-top: 30px;
+    margin-top: 0;
 }
 
 .right-image-post p,
 .left-image-post p {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .right-image-post .white-button,
@@ -473,6 +473,19 @@ button:hover {
 
 .service-item:hover .fifth-service-icon {
     color: #533b78;
+}
+
+.service-item .fa-react {
+    color: #fff;
+}
+.service-item:hover .fa-react {
+    color: #15AABF;
+}
+.service-item .fa-node {
+    color: #fff;
+}
+.service-item:hover .fa-node {
+    color: #7FC728;
 }
 
 .service-item .sixth-service-icon {
